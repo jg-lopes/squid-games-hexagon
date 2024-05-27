@@ -102,6 +102,15 @@ body {
           transform:translate3d(0,100%,0);
 }
 
+.hex.eliminated {
+  position: relative;
+  opacity: .5
+}
+
+.hex.eliminated img {
+  filter: grayscale(100%) brightness(.8) blur(2px)
+}
+
 
 /*** HOVER EFFECT  **********************************************************************/
 .hexLink:hover h1, .hexLink:focus h1,
