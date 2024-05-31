@@ -1,6 +1,9 @@
+import sg_hexagon from './assets/sg_hexagon.jpeg';
+import sg_hexagon2 from './assets/sg_hexagon2.jpeg';
+
 const playerGrid = document.getElementById("hexGrid");
 
-const playerURIs = ["src/assets/sg_hexagon.jpeg",  "src/assets/sg_hexagon2.jpeg"]
+const playerURIs = [sg_hexagon,  sg_hexagon2]
 
 // Track eliminated players
 const eliminatedPlayers = [];
