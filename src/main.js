@@ -1,5 +1,7 @@
 const playerGrid = document.getElementById("hexGrid");
 
+const playerURIs = ["src/assets/sg_hexagon.jpeg",  "src/assets/sg_hexagon2.jpeg"]
+
 // Track eliminated players
 const eliminatedPlayers = [];
 
@@ -9,7 +11,7 @@ for (let i = 0; i < 31; i++) {
     playerDiv.innerHTML = `
         <div class="hexIn">
           <a class="hexLink" href="#">
-            <img src="https://picsum.photos/id/${i + 1}/500/500" alt="" />
+            <img src="${playerURIs[(i%2)]}" alt="" />
           </a>
         </div>
     `;
