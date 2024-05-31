@@ -1,9 +1,14 @@
-import sg_hexagon from './assets/sg_hexagon.jpeg';
-import sg_hexagon2 from './assets/sg_hexagon2.jpeg';
+import indoors_centered_vertical from './assets/indoors_centered_vertical.jpg';	
+import slight_off_center_vertical from './assets/slight_off_center_vertical.jpg';
+import landscape_off_center_tuscany from './assets/landscape_off_center_tuscany.jpg';
+import landscape_off_center_eiffel from './assets/landscape_off_center_eiffel.jpg';
+import landscape_center_eiffel from './assets/landscape_center_eiffel.jpg';	
+import square_eiffel from './assets/square_eiffel.jpg';
+import landscape_slight_off_center_eiffel from './assets/landscape_slight_off_center_eiffel.jpg';
 
 const playerGrid = document.getElementById("hexGrid");
 
-const playerURIs = [sg_hexagon,  sg_hexagon2]
+const playerURIs = [indoors_centered_vertical, slight_off_center_vertical, landscape_off_center_tuscany, landscape_off_center_eiffel, landscape_center_eiffel, square_eiffel, landscape_slight_off_center_eiffel]
 
 // Track eliminated players
 const eliminatedPlayers = [];
@@ -14,7 +19,7 @@ for (let i = 0; i < 31; i++) {
     playerDiv.innerHTML = `
         <div class="hexIn">
           <a class="hexLink" href="#">
-            <img src="${playerURIs[(i%2)]}" alt="" />
+            <img src="${playerURIs[(i%playerURIs.length)]}" alt="" />
           </a>
         </div>
     `;
