@@ -5,10 +5,17 @@ import landscape_off_center_eiffel from './assets/landscape_off_center_eiffel.jp
 import landscape_center_eiffel from './assets/landscape_center_eiffel.jpg';	
 import square_eiffel from './assets/square_eiffel.jpg';
 import landscape_slight_off_center_eiffel from './assets/landscape_slight_off_center_eiffel.jpg';
+import capybara from './assets/capybara.jpeg'
+import joao_000 from './assets/joao_000.jpg'
+import zetta_000 from './assets/zetta_000.jpg'
+import black_square from './assets/black_square.jpeg'
 
 const playerGrid = document.getElementById("hexGrid");
 
-const playerURIs = [indoors_centered_vertical, slight_off_center_vertical, landscape_off_center_tuscany, landscape_off_center_eiffel, landscape_center_eiffel, square_eiffel, landscape_slight_off_center_eiffel]
+const row1 = [indoors_centered_vertical, slight_off_center_vertical, landscape_off_center_tuscany, landscape_off_center_eiffel, landscape_center_eiffel, square_eiffel]
+const row2 = [landscape_slight_off_center_eiffel, capybara, joao_000, zetta_000, black_square]
+
+const playerURIs = Array(3).fill([...row1, ...row2]).flat();
 
 // Track eliminated players
 const eliminatedPlayers = [];
