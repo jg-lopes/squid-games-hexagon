@@ -13,7 +13,7 @@ const playerURIs = [indoors_centered_vertical, slight_off_center_vertical, lands
 // Track eliminated players
 const eliminatedPlayers = [];
 
-for (let i = 0; i < 31; i++) { 
+for (let i = 0; i < 33; i++) { 
     const playerDiv = document.createElement("li");
     playerDiv.classList.add("hex");
     playerDiv.innerHTML = `
