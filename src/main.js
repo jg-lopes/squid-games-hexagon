@@ -36,7 +36,7 @@ const row4 = [sienna_018, wagstaff_019, carrie_020, dave_021, hutan_022] // 18-2
 const row5 = [black_square, michael_023, black_square, robin_024, black_square, kyrill_025] // 23-28
 // const row6 = [black_square, black_square, black_square, black_square, black_square]
 
-const playerURIs = Array(6).fill([...row1, ...row2, ...row3, ...row4, ...row5]).flat();
+const playerURIs = Array(5).fill([...row1, ...row2, ...row3, ...row4, ...row5]).flat();
 
 // Track eliminated players
 const eliminatedPlayers = [];
