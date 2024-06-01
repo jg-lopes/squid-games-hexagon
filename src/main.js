@@ -1,19 +1,13 @@
-import indoors_centered_vertical from './assets/indoors_centered_vertical.jpg';	
-import slight_off_center_vertical from './assets/slight_off_center_vertical.jpg';
-import landscape_off_center_tuscany from './assets/landscape_off_center_tuscany.jpg';
-import landscape_off_center_eiffel from './assets/landscape_off_center_eiffel.jpg';
-import landscape_center_eiffel from './assets/landscape_center_eiffel.jpg';	
-import square_eiffel from './assets/square_eiffel.jpg';
-import landscape_slight_off_center_eiffel from './assets/landscape_slight_off_center_eiffel.jpg';
-import capybara from './assets/capybara.jpeg'
-import joao_000 from './assets/joao_000.jpg'
-import zetta_000 from './assets/zetta_000.jpg'
+
 import black_square from './assets/black_square.jpeg'
+import ben_001 from './assets/ben_001.jpg'
+import tom_002 from './assets/tom_002.jpg'
+import ananya_003 from './assets/ananya_003.jpg'
 
 const playerGrid = document.getElementById("hexGrid");
 
-const row1 = [indoors_centered_vertical, slight_off_center_vertical, landscape_off_center_tuscany, landscape_off_center_eiffel, landscape_center_eiffel, square_eiffel]
-const row2 = [landscape_slight_off_center_eiffel, capybara, joao_000, zetta_000, black_square]
+const row1 = [ben_001, tom_002, ananya_003, black_square, black_square, black_square]
+const row2 = [black_square, black_square, black_square, black_square, black_square]
 
 const playerURIs = Array(3).fill([...row1, ...row2]).flat();
 
