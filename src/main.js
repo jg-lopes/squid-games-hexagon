@@ -25,7 +25,7 @@ for (let i = 0; i < 33; i++) {
     playerDiv.classList.add("hex");
     playerDiv.innerHTML = `
         <div class="hexIn">
-          <a class="hexLink" href="#">
+          <div class="hexLink">
             <img src="${playerURIs[(i%playerURIs.length)]}" alt="" />
           </a>
         </div>
