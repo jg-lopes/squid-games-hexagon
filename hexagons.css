@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background: rgb(22, 22, 22);
+    background: rgb(0, 0, 0);
     display: flex;         /* Make body a flex container */
     align-items: center;   /* Vertically center the content (hexGrid) */
     min-height: 100vh;     /* Ensure the body takes up the full viewport height */
