@@ -41,7 +41,7 @@ const playerURIs = Array(5).fill([...row1, ...row2, ...row3, ...row4, ...row5]).
 // Track eliminated players
 const eliminatedPlayers = [];
 
-for (let i = 0; i < playerURIs.length; i++) { 
+for (let i = 0; i < 28; i++) { 
     const playerDiv = document.createElement("li");
     playerDiv.classList.add("hex");
     playerDiv.innerHTML = `
