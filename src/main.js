@@ -8,8 +8,12 @@ const playerGrid = document.getElementById("hexGrid");
 
 const row1 = [ben_001, tom_002, ananya_003, black_square, black_square, black_square]
 const row2 = [black_square, black_square, black_square, black_square, black_square]
+const row3 = [black_square, black_square, black_square, black_square, black_square, black_square]
+const row4 = [black_square, black_square, black_square, black_square, black_square]
+const row5 = [black_square, black_square, black_square, black_square, black_square, black_square]
+const row6 = [black_square, black_square, black_square, black_square, black_square]
 
-const playerURIs = Array(3).fill([...row1, ...row2]).flat();
+const playerURIs = Array(6).fill([...row1, ...row2, ...row3, ...row4, ...row5, ...row6]).flat();
 
 // Track eliminated players
 const eliminatedPlayers = [];
