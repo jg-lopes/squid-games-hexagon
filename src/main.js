@@ -33,7 +33,7 @@ const row1 = [ben_001, tom_002, ananya_003, lauren_004, julia_005, luke_006]
 const row2 = [aivis_007, john_008, stan_009, axelle_010, natalia_011]  // 7-11
 const row3 = [raef_012, george_013, krish_014, charlie_015, dan_016, maria_017] // 12-17
 const row4 = [sienna_018, wagstaff_019, carrie_020, dave_021, hutan_022] // 18-22
-const row5 = [black_square, michael_023, black_square, robin_024, black_square, kyrill_025] // 23-28
+const row5 = [black_square, michael_023, robin_024, kyrill_025, black_square, black_square] // 23-28
 // const row6 = [black_square, black_square, black_square, black_square, black_square]
 
 const playerURIs = Array(5).fill([...row1, ...row2, ...row3, ...row4, ...row5]).flat();
