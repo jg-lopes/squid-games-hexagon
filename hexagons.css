@@ -135,9 +135,9 @@ body {
   .hex:nth-child(11n+7){ /* first hexagon of even rows */
     margin-left:calc(100% / (6*2));  /* = width of .hex / 2  to indent even rows */
   }
-  .hex:nth-child(29){ /* first hexagon of even rows */
-    margin-left:calc(8.3333%*3);  /* = width of .hex / 2  to indent even rows */
-  }
+  /* .hex:nth-child(29){
+    margin-left:calc(8.3333%*3);
+  } */
 }
 
 
