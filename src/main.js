@@ -3,10 +3,12 @@ import black_square from './assets/black_square.jpeg'
 import ben_001 from './assets/ben_001.jpg'
 import tom_002 from './assets/tom_002.jpg'
 import ananya_003 from './assets/ananya_003.jpg'
+import lauren_004 from './assets/lauren_004.jpg'
+import julia_005 from './assets/julia_005.jpg'
 
 const playerGrid = document.getElementById("hexGrid");
 
-const row1 = [ben_001, tom_002, ananya_003, black_square, black_square, black_square]
+const row1 = [ben_001, tom_002, ananya_003, lauren_004, julia_005, black_square]
 const row2 = [black_square, black_square, black_square, black_square, black_square]
 const row3 = [black_square, black_square, black_square, black_square, black_square, black_square]
 const row4 = [black_square, black_square, black_square, black_square, black_square]
