@@ -11,20 +11,25 @@ import john_008 from './assets/john_008.jpg'
 import stan_009 from './assets/009_stan.jpeg'
 import axelle_010 from './assets/010_axelle.jpg'
 import natalia_011 from './assets/011_natalia.jpg'
+import raef_012 from './assets/012_raef.jpg'
+import george_013 from './assets/013_george.jpg'
+import krish_014 from './assets/014_krish.jpg'
 import charlie_015 from './assets/015_charlie.jpg'
 import dan_016 from './assets/016_dan.jpg'
 import maria_017 from './assets/017_maria.jpg'
 import sienna_018 from './assets/018_sienna.jpg'
 import wagstaff_019 from './assets/019_wagstaff.jpg'
+import dave_021 from './assets/021_dave.jpg'
+import michael_023 from './assets/023_michael.jpg'
 
 
 const playerGrid = document.getElementById("hexGrid");
 
 const row1 = [ben_001, tom_002, ananya_003, lauren_004, julia_005, luke_006]
 const row2 = [aivis_007, john_008, stan_009, axelle_010, natalia_011]  // 7-11
-const row3 = [black_square, black_square, black_square, charlie_015, dan_016, maria_017] // 12-17
-const row4 = [sienna_018, wagstaff_019, black_square, black_square, black_square] // 18-22
-const row5 = [black_square, black_square, black_square, black_square, black_square, black_square]
+const row3 = [raef_012, george_013, krish_014, charlie_015, dan_016, maria_017] // 12-17
+const row4 = [sienna_018, wagstaff_019, black_square, dave_021, black_square] // 18-22
+const row5 = [michael_023, black_square, black_square, black_square, black_square, black_square]
 const row6 = [black_square, black_square, black_square, black_square, black_square]
 
 const playerURIs = Array(6).fill([...row1, ...row2, ...row3, ...row4, ...row5, ...row6]).flat();
