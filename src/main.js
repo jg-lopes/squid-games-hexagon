@@ -8,6 +8,7 @@ import julia_005 from './assets/julia_005.jpg'
 import luke_006 from './assets/luke_006.jpg'
 import aivis_007 from './assets/aivis_007.jpg'
 import john_008 from './assets/john_008.jpg'
+import stan_009 from './assets/stan_009.jpeg'
 import black_square from './assets/black_square.jpeg'
 import axelle_010 from './assets/010_axelle.jpg'
 import natalia_011 from './assets/011_natalia.jpg'
@@ -21,7 +22,7 @@ import wagstaff_019 from './assets/019_wagstaff.jpg'
 const playerGrid = document.getElementById("hexGrid");
 
 const row1 = [ben_001, tom_002, ananya_003, lauren_004, julia_005, luke_006]
-const row2 = [aivis_007, john_008, black_square, axelle_010, natalia_011]  // 7-11
+const row2 = [aivis_007, john_008, stan_009, axelle_010, natalia_011]  // 7-11
 const row3 = [black_square, black_square, black_square, charlie_015, dan_016, maria_017] // 12-17
 const row4 = [sienna_018, wagstaff_019, black_square, black_square, black_square] // 18-22
 const row5 = [black_square, black_square, black_square, black_square, black_square, black_square]
